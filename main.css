@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page {
+  display: flex;
+  height: 90%;
+}
+
+.toc {
+  padding: 0 10px 0 0;
+}
+
+.toc > * {
+  display: block;
+}
+
+.content {
+  flex-grow: 100;
+  border: 1px solid green;
+}
