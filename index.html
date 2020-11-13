@@ -6,16 +6,29 @@
     <title>RECON GURU Reports</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type='text/javascript' src='main.js'></script>
   </head>
   <body>
     <h2>RECON GURU Reports</h2>
     <div class="page">
-      <div class="toc">
-        <a href="make_bar_bokeh.html" target="content-frame">Make Bar Bokeh</a>
-        <a href="vulnerability_report.html" target="content-frame">Vulnerability Report</a>
+      <div class="nav">
+        <ul>
+          <li>
+            <input type="radio" id="tab-make_bar_bokeh.html" name="tab-group" onclick="updateContent('make_bar_bokeh.html')" />
+            <label for="tab-make_bar_bokeh.html">Make Bar Bokeh</label>
+          </li>
+          <li>
+            <input type="radio" id="tab-make_histogram_bokeh.html" name="tab-group" onclick="updateContent('make_histogram_bokeh.html')" />
+            <label for="tab-make_histogram_bokeh.html">Make Histogram Bokeh</label>
+          </li>
+          <li>
+            <input type="radio" id="tab-vulnerability_report.html" name="tab-group" onclick="updateContent('vulnerability_report.html')" />
+            <label for="tab-vulnerability_report.html">Vulnerability Report</label>
+          </li>
+        </ul>
       </div>
       <div class="content">
-        <iframe name="content-frame" width="100%" height="100%" src="make_bar_bokeh.html" frameborder=0 />
+        <iframe id="content-frame" name="content-frame" width="100%" height="100%" src="make_bar_bokeh.html" frameborder=0 />
       </div>
     </div>
   </body>

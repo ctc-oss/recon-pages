@@ -1,23 +1,50 @@
 html,
 body {
-  height: 100%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 95%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .page {
   display: flex;
-  height: 90%;
+  height: 99%;
+  flex-direction: column;
 }
 
-.toc {
-  padding: 0 10px 0 0;
+.nav ul {
+  list-style: none;
+  padding: 0 0 6px 0;
+  margin: 0 0 3px 0;
 }
 
-.toc > * {
-  display: block;
+.nav li {
+  display: inline;
+}
+
+.nav li label {
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: gray;
+  position: relative;
+  color: white;
+  cursor: pointer;
+}
+
+.nav li [type="radio"] {
+  opacity: 0;
+  width: 0;
+}
+
+.nav li [type="radio"]:checked ~ label {
+  background: white;
+  border: 1px solid darkgray;
+  border-bottom: 1px solid white;
+  color: black;
+  font-weight: bold;
 }
 
 .content {
-  flex-grow: 100;
-  border: 1px solid green;
+  flex-grow: 90;
+  border: 1px solid darkgray;
 }
