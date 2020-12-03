@@ -1,0 +1,40 @@
+{
+  "test_accuracy": "0.8361",
+  "MI[out] acc.": "0.2479",
+  "MI[in] acc.": "1.0",
+  "MI[all] acc.": "0.62395",
+  "MI_weighted": 0.6552567899999999,
+  "MI_worst_case": 0.7716003,
+  "MI_class_results": {
+    "0": {
+      "mi_auc": 0
+    },
+    "1": {
+      "mi_auc": 0
+    },
+    "2": {
+      "mi_auc": 0
+    },
+    "3": {
+      "mi_auc": 0
+    },
+    "4": {
+      "mi_auc": 0
+    },
+    "5": {
+      "mi_auc": 0
+    },
+    "6": {
+      "mi_auc": 0
+    },
+    "7": {
+      "mi_auc": 0
+    },
+    "8": {
+      "mi_auc": 0
+    },
+    "9": {
+      "mi_auc": 0
+    }
+  }
+}

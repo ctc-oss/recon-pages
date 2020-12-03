@@ -1,0 +1,50 @@
+{
+  "test_accuracy": "0.8213",
+  "MI[out] acc.": "0.2891",
+  "MI[in] acc.": "0.9990526315789474",
+  "MI[all] acc.": "0.6440763157894738",
+  "MI_weighted": 0.6535908486956521,
+  "MI_worst_case": 0.7890168,
+  "MI_class_results": {
+    "0": {
+      "mi_auc": 0.6472156,
+      "class_counts": 6000
+    },
+    "1": {
+      "mi_auc": 0.5594672,
+      "class_counts": 6000
+    },
+    "2": {
+      "mi_auc": 0.723578,
+      "class_counts": 6000
+    },
+    "3": {
+      "mi_auc": 0.7890168,
+      "class_counts": 6000
+    },
+    "4": {
+      "mi_auc": 0.7800272,
+      "class_counts": 3500
+    },
+    "5": {
+      "mi_auc": 0.7041408,
+      "class_counts": 6000
+    },
+    "6": {
+      "mi_auc": 0.6056624,
+      "class_counts": 6000
+    },
+    "7": {
+      "mi_auc": 0.6331676,
+      "class_counts": 6000
+    },
+    "8": {
+      "mi_auc": 0.5824286,
+      "class_counts": 6000
+    },
+    "9": {
+      "mi_auc": 0.5638861,
+      "class_counts": 6000
+    }
+  }
+}
