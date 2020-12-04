@@ -1,0 +1,272 @@
+{
+  "test_accuracy": "0.73468083",
+  "MI[out] acc.": "0.39872340425531916",
+  "MI[in] acc.": "1.0",
+  "MI[all] acc.": "0.6993617021276596",
+  "MI_weighted": 0.8921872340425533,
+  "MI_worst_case": 1,
+  "MI_class_results": {
+    "0": {
+      "mi_auc": 1,
+      "class_counts": 100
+    },
+    "1": {
+      "mi_auc": 0.98,
+      "class_counts": 100
+    },
+    "2": {
+      "mi_auc": 0.892,
+      "class_counts": 100
+    },
+    "3": {
+      "mi_auc": 0.7724,
+      "class_counts": 100
+    },
+    "4": {
+      "mi_auc": 0.8284,
+      "class_counts": 100
+    },
+    "5": {
+      "mi_auc": 0.9164,
+      "class_counts": 100
+    },
+    "6": {
+      "mi_auc": 0.8848,
+      "class_counts": 100
+    },
+    "7": {
+      "mi_auc": 0.7436,
+      "class_counts": 100
+    },
+    "8": {
+      "mi_auc": 0.9488,
+      "class_counts": 100
+    },
+    "9": {
+      "mi_auc": 0.986,
+      "class_counts": 100
+    },
+    "10": {
+      "mi_auc": 0.8568,
+      "class_counts": 100
+    },
+    "11": {
+      "mi_auc": 0.88,
+      "class_counts": 100
+    },
+    "12": {
+      "mi_auc": 0.9024,
+      "class_counts": 100
+    },
+    "13": {
+      "mi_auc": 0.8656,
+      "class_counts": 100
+    },
+    "14": {
+      "mi_auc": 0.86,
+      "class_counts": 100
+    },
+    "15": {
+      "mi_auc": 0.9584,
+      "class_counts": 100
+    },
+    "16": {
+      "mi_auc": 0.852,
+      "class_counts": 100
+    },
+    "17": {
+      "mi_auc": 0.9124,
+      "class_counts": 100
+    },
+    "18": {
+      "mi_auc": 0.954,
+      "class_counts": 100
+    },
+    "19": {
+      "mi_auc": 0.8576,
+      "class_counts": 100
+    },
+    "20": {
+      "mi_auc": 0.9164,
+      "class_counts": 100
+    },
+    "21": {
+      "mi_auc": 0.974,
+      "class_counts": 100
+    },
+    "22": {
+      "mi_auc": 0.822,
+      "class_counts": 100
+    },
+    "23": {
+      "mi_auc": 0.936,
+      "class_counts": 100
+    },
+    "24": {
+      "mi_auc": 0.9424,
+      "class_counts": 100
+    },
+    "25": {
+      "mi_auc": 0.8972,
+      "class_counts": 100
+    },
+    "26": {
+      "mi_auc": 0.8496,
+      "class_counts": 100
+    },
+    "27": {
+      "mi_auc": 0.9524,
+      "class_counts": 100
+    },
+    "28": {
+      "mi_auc": 0.8968,
+      "class_counts": 100
+    },
+    "29": {
+      "mi_auc": 0.8228,
+      "class_counts": 100
+    },
+    "30": {
+      "mi_auc": 0.9312,
+      "class_counts": 100
+    },
+    "31": {
+      "mi_auc": 0.8108,
+      "class_counts": 100
+    },
+    "32": {
+      "mi_auc": 0.7856,
+      "class_counts": 100
+    },
+    "33": {
+      "mi_auc": 0.806,
+      "class_counts": 100
+    },
+    "34": {
+      "mi_auc": 0.936,
+      "class_counts": 100
+    },
+    "35": {
+      "mi_auc": 0.8972,
+      "class_counts": 100
+    },
+    "36": {
+      "mi_auc": 0.9604,
+      "class_counts": 100
+    },
+    "37": {
+      "mi_auc": 0.9092,
+      "class_counts": 100
+    },
+    "38": {
+      "mi_auc": 0.7536,
+      "class_counts": 100
+    },
+    "39": {
+      "mi_auc": 0.8404,
+      "class_counts": 100
+    },
+    "40": {
+      "mi_auc": 0.9124,
+      "class_counts": 100
+    },
+    "41": {
+      "mi_auc": 0.9972,
+      "class_counts": 100
+    },
+    "42": {
+      "mi_auc": 0.9912,
+      "class_counts": 100
+    },
+    "43": {
+      "mi_auc": 0.7736,
+      "class_counts": 100
+    },
+    "44": {
+      "mi_auc": 0.9844,
+      "class_counts": 100
+    },
+    "45": {
+      "mi_auc": 0.832,
+      "class_counts": 100
+    },
+    "46": {
+      "mi_auc": 0.9504,
+      "class_counts": 100
+    }
+  },
+  "config": {
+    "_comment": "====== MEMBERSHIP INFERENCE DEFENSE and ATTACK CONFIGURATION ========",
+    "save_dir": "EMNIST_dan4stacks_UC1_noDA",
+    "model_dir": "",
+    "log_dir": "",
+    "model_name": "keras_generator",
+    "data_set": "emnist",
+    "num_classes": 47,
+    "image_size": 28,
+    "image_channels": 1,
+    "data_path": "data",
+    "data_augmentation": false,
+    "save_all_epochs": false,
+    "save_best_only": true,
+    "model_architecture": "daniel_4stacks",
+    "conv_filters": [
+      32,
+      64
+    ],
+    "dense_units": 1028,
+    "mode": "natural",
+    "input_name": "input_1",
+    "epochs": 50,
+    "batch_size": 128,
+    "keep_var_names": [
+      "Adam",
+      "training",
+      "save",
+      "costs",
+      "ArgMax",
+      "Equal",
+      "Cast",
+      "Rank",
+      "range",
+      "Sum",
+      "Cast_1",
+      "Rank_1",
+      "range_1",
+      "Mean"
+    ],
+    "subtract_pixel_mean": false,
+    "with_synthetic_data": false,
+    "fit_shuffle": true,
+    "flow_shuffle": true,
+    "scoop_method": false,
+    "num_eval_examples": 18800,
+    "eval_batch_size": 100,
+    "eval_on_cpu": false,
+    "epsilon": 0.3,
+    "num_steps": 40,
+    "step_size": 0.01,
+    "random_start": true,
+    "loss_func": "xent",
+    "store_adv_path": "attack.npy",
+    "learning_rate": 0.05,
+    "l1": -0.005,
+    "l2": -0.05,
+    "tv": -0.001,
+    "blur": -0.15,
+    "jitter": 1,
+    "evaluate_mi": true,
+    "logit_layer": "logits/BiasAdd",
+    "threshold_increment": 1,
+    "div": 1,
+    "div_layers": [
+      "activation_4/Relu",
+      "conv2d_4/BiasAdd"
+    ],
+    "div_multiplier": 10,
+    "partition_data": true,
+    "examples_per_class": 50,
+    "shadow_models": 5,
+    "partition_shuffle": true
+  }
+}

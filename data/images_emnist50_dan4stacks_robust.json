@@ -1,0 +1,272 @@
+{
+  "test_accuracy": "0.7454255",
+  "MI[out] acc.": "0.4516489361702128",
+  "MI[in] acc.": "0.5641134751773049",
+  "MI[all] acc.": "0.5078812056737588",
+  "MI_weighted": 0.510870855496454,
+  "MI_worst_case": 0.5491083333333333,
+  "MI_class_results": {
+    "0": {
+      "mi_auc": 0.5023885417,
+      "class_counts": 2800
+    },
+    "1": {
+      "mi_auc": 0.5207916667,
+      "class_counts": 2800
+    },
+    "2": {
+      "mi_auc": 0.5194916667,
+      "class_counts": 2800
+    },
+    "3": {
+      "mi_auc": 0.4802989583,
+      "class_counts": 2800
+    },
+    "4": {
+      "mi_auc": 0.5106645833,
+      "class_counts": 2800
+    },
+    "5": {
+      "mi_auc": 0.5200510417,
+      "class_counts": 2800
+    },
+    "6": {
+      "mi_auc": 0.5114479167,
+      "class_counts": 2800
+    },
+    "7": {
+      "mi_auc": 0.5065,
+      "class_counts": 2800
+    },
+    "8": {
+      "mi_auc": 0.50649375,
+      "class_counts": 2800
+    },
+    "9": {
+      "mi_auc": 0.5071635417,
+      "class_counts": 2800
+    },
+    "10": {
+      "mi_auc": 0.5028135417,
+      "class_counts": 2800
+    },
+    "11": {
+      "mi_auc": 0.5072864583,
+      "class_counts": 2800
+    },
+    "12": {
+      "mi_auc": 0.4988791667,
+      "class_counts": 2800
+    },
+    "13": {
+      "mi_auc": 0.5057677083,
+      "class_counts": 2800
+    },
+    "14": {
+      "mi_auc": 0.4880489583,
+      "class_counts": 2800
+    },
+    "15": {
+      "mi_auc": 0.523046875,
+      "class_counts": 2800
+    },
+    "16": {
+      "mi_auc": 0.517315625,
+      "class_counts": 2800
+    },
+    "17": {
+      "mi_auc": 0.5082583333,
+      "class_counts": 2800
+    },
+    "18": {
+      "mi_auc": 0.520340625,
+      "class_counts": 2800
+    },
+    "19": {
+      "mi_auc": 0.5172177083,
+      "class_counts": 2800
+    },
+    "20": {
+      "mi_auc": 0.5019541667,
+      "class_counts": 2800
+    },
+    "21": {
+      "mi_auc": 0.5327489583,
+      "class_counts": 2800
+    },
+    "22": {
+      "mi_auc": 0.513675,
+      "class_counts": 2800
+    },
+    "23": {
+      "mi_auc": 0.5261177083,
+      "class_counts": 2800
+    },
+    "24": {
+      "mi_auc": 0.4940104167,
+      "class_counts": 2800
+    },
+    "25": {
+      "mi_auc": 0.5251270833,
+      "class_counts": 2800
+    },
+    "26": {
+      "mi_auc": 0.501453125,
+      "class_counts": 2800
+    },
+    "27": {
+      "mi_auc": 0.543209375,
+      "class_counts": 2800
+    },
+    "28": {
+      "mi_auc": 0.49350625,
+      "class_counts": 2800
+    },
+    "29": {
+      "mi_auc": 0.51520625,
+      "class_counts": 2800
+    },
+    "30": {
+      "mi_auc": 0.5198145833,
+      "class_counts": 2800
+    },
+    "31": {
+      "mi_auc": 0.5235583333,
+      "class_counts": 2800
+    },
+    "32": {
+      "mi_auc": 0.4542885417,
+      "class_counts": 2800
+    },
+    "33": {
+      "mi_auc": 0.5159739583,
+      "class_counts": 2800
+    },
+    "34": {
+      "mi_auc": 0.50243125,
+      "class_counts": 2800
+    },
+    "35": {
+      "mi_auc": 0.5060427083,
+      "class_counts": 2800
+    },
+    "36": {
+      "mi_auc": 0.5234552083,
+      "class_counts": 2800
+    },
+    "37": {
+      "mi_auc": 0.4919875,
+      "class_counts": 2800
+    },
+    "38": {
+      "mi_auc": 0.503978125,
+      "class_counts": 2800
+    },
+    "39": {
+      "mi_auc": 0.4837375,
+      "class_counts": 2800
+    },
+    "40": {
+      "mi_auc": 0.5269729167,
+      "class_counts": 2800
+    },
+    "41": {
+      "mi_auc": 0.4944645833,
+      "class_counts": 2800
+    },
+    "42": {
+      "mi_auc": 0.5100427083,
+      "class_counts": 2800
+    },
+    "43": {
+      "mi_auc": 0.5491083333,
+      "class_counts": 2800
+    },
+    "44": {
+      "mi_auc": 0.52405625,
+      "class_counts": 2800
+    },
+    "45": {
+      "mi_auc": 0.5428739583,
+      "class_counts": 2800
+    },
+    "46": {
+      "mi_auc": 0.51686875,
+      "class_counts": 2800
+    }
+  },
+  "config": {
+    "_comment": "====== MEMBERSHIP INFERENCE DEFENSE and ATTACK CONFIGURATION ========",
+    "save_dir": "EMNIST_dan4stacks_UC1_noDA_robust",
+    "model_dir": "",
+    "log_dir": "",
+    "model_name": "keras_generator",
+    "data_set": "emnist",
+    "num_classes": 47,
+    "image_size": 28,
+    "image_channels": 1,
+    "data_path": "data",
+    "data_augmentation": false,
+    "save_all_epochs": false,
+    "save_best_only": true,
+    "model_architecture": "daniel_4stacks",
+    "conv_filters": [
+      32,
+      64
+    ],
+    "dense_units": 1028,
+    "mode": "robust",
+    "input_name": "input_1",
+    "epochs": 50,
+    "batch_size": 128,
+    "keep_var_names": [
+      "Adam",
+      "training",
+      "save",
+      "costs",
+      "ArgMax",
+      "Equal",
+      "Cast",
+      "Rank",
+      "range",
+      "Sum",
+      "Cast_1",
+      "Rank_1",
+      "range_1",
+      "Mean"
+    ],
+    "subtract_pixel_mean": false,
+    "with_synthetic_data": false,
+    "fit_shuffle": true,
+    "flow_shuffle": true,
+    "scoop_method": false,
+    "num_eval_examples": 18800,
+    "eval_batch_size": 100,
+    "eval_on_cpu": false,
+    "epsilon": 0.3,
+    "num_steps": 40,
+    "step_size": 0.01,
+    "random_start": true,
+    "loss_func": "xent",
+    "store_adv_path": "attack.npy",
+    "learning_rate": 0.05,
+    "l1": -0.005,
+    "l2": -0.05,
+    "tv": -0.001,
+    "blur": -0.15,
+    "jitter": 1,
+    "evaluate_mi": true,
+    "logit_layer": "logits/BiasAdd",
+    "threshold_increment": 1,
+    "div": 1,
+    "div_layers": [
+      "activation_4/Relu",
+      "conv2d_4/BiasAdd"
+    ],
+    "div_multiplier": 10,
+    "partition_data": true,
+    "examples_per_class": 50,
+    "shadow_models": 1,
+    "partition_shuffle": true
+  }
+}
