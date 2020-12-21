@@ -1,56 +1,58 @@
 {
-  "test_accuracy": "0.5889",
-  "MI[out] acc.": "0.9234",
-  "MI[in] acc.": "0.0776",
-  "MI[all] acc.": "0.41592",
-  "MI_weighted": 0.49778856666666665,
-  "MI_worst_case": 0.5071878333333334,
+  "test_accuracy": "0.5338",
+  "experiment_start": "2020-12-07T10:25:25Z",
+  "experiment_end": "2020-12-07T11:25:25Z",
+  "MI[out] acc.": "0.91865",
+  "MI[in] acc.": "0.0906",
+  "MI[all] acc.": "0.42182",
+  "MI_weighted": 0.5257931666666668,
+  "MI_worst_case": 0.5470296666666667,
   "MI_class_results": {
     "0": {
-      "mi_auc": 0.5071878333333334,
+      "mi_auc": 0.5342248333333333,
       "class_counts": 5000.0
     },
     "1": {
-      "mi_auc": 0.4959226666666667,
+      "mi_auc": 0.5345183333333333,
       "class_counts": 5000.0
     },
     "2": {
-      "mi_auc": 0.495361,
+      "mi_auc": 0.5221199999999999,
       "class_counts": 5000.0
     },
     "3": {
-      "mi_auc": 0.4957811666666667,
+      "mi_auc": 0.5215443333333334,
       "class_counts": 5000.0
     },
     "4": {
-      "mi_auc": 0.498204,
+      "mi_auc": 0.5122818333333333,
       "class_counts": 5000.0
     },
     "5": {
-      "mi_auc": 0.4969723333333333,
+      "mi_auc": 0.4924533333333333,
       "class_counts": 5000.0
     },
     "6": {
-      "mi_auc": 0.4960548333333334,
+      "mi_auc": 0.523773,
       "class_counts": 5000.0
     },
     "7": {
-      "mi_auc": 0.5017338333333333,
+      "mi_auc": 0.5287251666666666,
       "class_counts": 5000.0
     },
     "8": {
-      "mi_auc": 0.5027689999999999,
+      "mi_auc": 0.5470296666666667,
       "class_counts": 5000.0
     },
     "9": {
-      "mi_auc": 0.487899,
+      "mi_auc": 0.5412611666666667,
       "class_counts": 5000.0
     }
   },
-  "mia_correctness_acc": "0.50005",
-  "mia_confidence_acc": "0.50005",
-  "mia_entropy_acc": "0.5002",
-  "mia_modified_entrpy_acc": "0.50065",
+  "mia_correctness_acc": "0.50045",
+  "mia_confidence_acc": "0.50045",
+  "mia_entropy_acc": "0.5003333333333334",
+  "mia_modified_entrpy_acc": "0.5002833333333333",
   "config": {
     "_comment": "====== CLASS CLOWN CONFIGURATION ========",
     "save_dir": "exp/cifar10_resnetv1_56_robust_scoop",
@@ -64,15 +66,12 @@
     "data_path": "data",
     "data_augmentation": false,
     "model_architecture": "resnet1",
-    "conv_filters": [
-      32,
-      64
-    ],
+    "conv_filters": [32, 64],
     "dense_units": 128,
     "mode": "robust",
     "input_name": "input_1",
     "resnet_n": 9,
-    "epochs": 10,
+    "epochs": 100,
     "batch_size": 128,
     "subtract_pixel_mean": false,
     "keep_var_names": [
@@ -111,10 +110,7 @@
     "jitter": 1,
     "threshold_increment": 1,
     "div": 1,
-    "div_layers": [
-      "activation_4/Relu",
-      "conv2d_4/BiasAdd"
-    ],
+    "div_layers": ["activation_4/Relu", "conv2d_4/BiasAdd"],
     "div_multiplier": 10,
     "partition_data": true,
     "scoop_method": true,
