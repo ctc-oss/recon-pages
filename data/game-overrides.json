@@ -1,0 +1,62 @@
+{
+  "345": {
+    "probability": 0.70992035,
+    "groups": [1],
+    "correct": false,
+    "carnac": false
+  },
+  "3402": {
+    "probability": 1.0,
+    "groups": [1],
+    "correct": false,
+    "carnac": false
+  },
+  "82": {
+    "probability": 0.9999982,
+    "groups": [1],
+    "correct": true,
+    "carnac": true
+  },
+  "149": {
+    "probability": 1.0,
+    "groups": [1],
+    "correct": true,
+    "carnac": true
+  },
+  "336": {
+    "probability": 0.98342913,
+    "groups": [1],
+    "correct": true,
+    "carnac": true
+  },
+  "1069": {
+    "probability": 1.0,
+    "groups": [2],
+    "correct": false,
+    "carnac": true
+  },
+  "844": {
+    "probability": 0.95887417,
+    "groups": [2],
+    "correct": false,
+    "carnac": false
+  },
+  "3851": {
+    "probability": 0.9999362,
+    "groups": [2],
+    "correct": false,
+    "carnac": false
+  },
+  "1615": {
+    "probability": 0.9999277591705322,
+    "groups": [2],
+    "correct": true,
+    "carnac": true
+  },
+  "346": {
+    "probability": 0.87314665,
+    "groups": [2],
+    "correct": true,
+    "carnac": true
+  }
+}

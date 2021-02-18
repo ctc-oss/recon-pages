@@ -1,0 +1,391 @@
+[
+  {
+    "path": "cifar10_345_cat_out.png",
+    "probability": 0.87,
+    "group": [1],
+    "label": "cat",
+    "correct": false,
+    "carnac": false,
+    "variants": {
+      "flipped": {
+        "probability": 0.85,
+        "label": "bear",
+        "path": "cifar10_345_cat_out_flipped.png"
+      },
+      "rotate90": {
+        "probability": 0.84,
+        "path": "cifar10_345_cat_out_rotate90.png"
+      },
+      "noise1": {
+        "probability": 0.82
+      },
+      "noise2": {
+        "probability": 0.64
+      }
+    }
+  },
+  {
+    "path": "cifar10_3402_frog_out.png",
+    "group": [1],
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_82_deer_in.png",
+    "group": [1],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_149_deer_in.png",
+    "group": [1],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_336_deer_in.png",
+    "group": [1],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_844_horse_out.png",
+    "group": [2],
+    "label": "horse",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_3851_dog_out.png",
+    "group": [2],
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_346_deer_in.png",
+    "group": [2],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_1595_bird_out.png",
+    "group": [2],
+    "label": "bird",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_1863_deer_in.png",
+    "group": [2],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_3635_horse_out.png",
+    "group": [3],
+    "label": "horse",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2056_frog_out.png",
+    "group": [3],
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_458_deer_in.png",
+    "group": [3],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_528_deer_in.png",
+    "group": [3],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_581_deer_in.png",
+    "group": [3],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_455_dog_out.png",
+    "group": [4],
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_1623_frog_out.png",
+    "group": [4],
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_6243_frog_out.png",
+    "group": [4],
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_665_deer_in.png",
+    "group": [4],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_1615_deer_in.png",
+    "group": [4],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10116_deer_in.png",
+    "group": [5],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_9840_dog_out.png",
+    "group": [5],
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_346_deer_in.png",
+    "group": [5],
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_7059_frog_out.png",
+    "group": [5],
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_1303_frog_out.png",
+    "group": [5],
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_405_bird_out.png",
+    "group": "game",
+    "label": "bird",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_427_truck_out.png",
+    "group": "game",
+    "label": "truck",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2409_bird_out.png",
+    "group": "game",
+    "label": "bird",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2128_frog_out.png",
+    "group": "game",
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2500_frog_out.png",
+    "group": "game",
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2981_frog_out.png",
+    "group": "game",
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_3056_dog_out.png",
+    "group": "game",
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_3798_horse_out.png",
+    "group": "game",
+    "label": "horse",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_4946_frog_out.png",
+    "group": "game",
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_7062_frog_out.png",
+    "group": "game",
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_7482_frog_out.png",
+    "group": "game",
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_12285_dog_out.png",
+    "group": "game",
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_13715_dog_out.png",
+    "group": "game",
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_14857_cat_out.png",
+    "group": "game",
+    "label": "cat",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_1851_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10167_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10210_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10296_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10451_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10592_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10641_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10701_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10834_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10877_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_11125_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_11510_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_11635_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_11785_deer_in.png",
+    "group": "game",
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  }
+]

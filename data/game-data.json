@@ -1,0 +1,554 @@
+[
+  {
+    "path": "cifar10_82_deer_in.png",
+    "probability": 0.9999982,
+    "label": "deer",
+    "correct": true,
+    "carnac": true,
+    "groups": [
+      1
+    ]
+  },
+  {
+    "path": "cifar10_149_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true,
+    "groups": [
+      1
+    ]
+  },
+  {
+    "path": "cifar10_336_deer_in.png",
+    "probability": 0.98342913,
+    "label": "deer",
+    "correct": true,
+    "carnac": true,
+    "groups": [
+      1
+    ]
+  },
+  {
+    "path": "cifar10_345_cat_out.png",
+    "probability": 0.70992035,
+    "label": "cat",
+    "correct": false,
+    "carnac": false,
+    "groups": [
+      1
+    ]
+  },
+  {
+    "path": "cifar10_346_deer_in.png",
+    "probability": 0.87314665,
+    "label": "deer",
+    "correct": true,
+    "carnac": true,
+    "groups": [
+      2
+    ]
+  },
+  {
+    "path": "cifar10_405_bird_out.png",
+    "probability": 1.0,
+    "label": "bird",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_427_truck_out.png",
+    "probability": 1.0,
+    "label": "truck",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_455_dog_out.png",
+    "probability": 1.0,
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_458_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_528_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_581_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_665_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_844_horse_out.png",
+    "probability": 0.95887417,
+    "label": "horse",
+    "correct": false,
+    "carnac": false,
+    "groups": [
+      2
+    ]
+  },
+  {
+    "path": "cifar10_1069_deer_out.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": false,
+    "carnac": true,
+    "variants": {
+      "hflip": {
+        "path": "augmentation_example_1069_deer_1.0_hflip.png",
+        "probability": 1.0,
+        "label": "deer"
+      },
+      "vflip": {
+        "path": "augmentation_example_1069_bird_0.6288044452667236_vflip.png",
+        "probability": 0.6288044452667236,
+        "label": "bird"
+      },
+      "rot25": {
+        "path": "augmentation_example_1069_deer_0.9999473094940186_rot25.png",
+        "probability": 0.9999473094940186,
+        "label": "deer"
+      },
+      "rot30": {
+        "path": "augmentation_example_1069_deer_0.9870709776878357_rot30.png",
+        "probability": 0.9870709776878357,
+        "label": "deer"
+      },
+      "rot35": {
+        "path": "augmentation_example_1069_bird_0.888583242893219_rot35.png",
+        "probability": 0.888583242893219,
+        "label": "bird"
+      },
+      "rot90": {
+        "path": "augmentation_example_1069_deer_0.6959428787231445_rot90.png",
+        "probability": 0.6959428787231445,
+        "label": "deer"
+      },
+      "rot180": {
+        "path": "augmentation_example_1069_horse_0.7286235690116882_rot180.png",
+        "probability": 0.7286235690116882,
+        "label": "horse"
+      },
+      "rot270": {
+        "path": "augmentation_example_1069_bird_0.9846407175064087_rot270.png",
+        "probability": 0.9846407175064087,
+        "label": "bird"
+      },
+      "noise1": {
+        "path": "adversarial_example_1069_0.01_deer_1.0.png",
+        "probability": 1.0,
+        "label": "deer"
+      },
+      "noise2": {
+        "path": "adversarial_example_1069_0.025_bird_0.7014379501342773.png",
+        "probability": 0.7014379501342773,
+        "label": "bird"
+      },
+      "noise3": {
+        "path": "adversarial_example_1069_0.05_cat_0.7010475993156433.png",
+        "probability": 0.7010475993156433,
+        "label": "cat"
+      },
+      "noise4": {
+        "path": "adversarial_example_1069_0.075_cat_0.9146826863288879.png",
+        "probability": 0.9146826863288879,
+        "label": "cat"
+      },
+      "noise5": {
+        "path": "adversarial_example_1069_0.1_frog_0.9998669624328613.png",
+        "probability": 0.9998669624328613,
+        "label": "frog"
+      },
+      "noise6": {
+        "path": "adversarial_example_1069_0.15_deer_0.6357155442237854.png",
+        "probability": 0.6357155442237854,
+        "label": "deer"
+      }
+    },
+    "groups": [
+      2
+    ]
+  },
+  {
+    "path": "cifar10_1303_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_1595_bird_out.png",
+    "probability": 1.0,
+    "label": "bird",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_1615_deer_in.png",
+    "probability": 0.9999277591705322,
+    "label": "deer",
+    "correct": true,
+    "carnac": true,
+    "variants": {
+      "hflip": {
+        "path": "augmentation_example_1615_deer_0.9999808073043823_hflip.png",
+        "probability": 0.9999808073043823,
+        "label": "deer"
+      },
+      "vflip": {
+        "path": "augmentation_example_1615_frog_0.7127729654312134_vflip.png",
+        "probability": 0.7127729654312134,
+        "label": "frog"
+      },
+      "rot25": {
+        "path": "augmentation_example_1615_deer_0.9998225569725037_rot25.png",
+        "probability": 0.9998225569725037,
+        "label": "deer"
+      },
+      "rot30": {
+        "path": "augmentation_example_1615_deer_0.9950437545776367_rot30.png",
+        "probability": 0.9950437545776367,
+        "label": "deer"
+      },
+      "rot35": {
+        "path": "augmentation_example_1615_deer_0.833563506603241_rot35.png",
+        "probability": 0.833563506603241,
+        "label": "deer"
+      },
+      "rot90": {
+        "path": "augmentation_example_1615_deer_0.41365376114845276_rot90.png",
+        "probability": 0.41365376114845276,
+        "label": "deer"
+      },
+      "rot180": {
+        "path": "augmentation_example_1615_frog_0.7158141732215881_rot180.png",
+        "probability": 0.7158141732215881,
+        "label": "frog"
+      },
+      "rot270": {
+        "path": "augmentation_example_1615_bird_0.9897760152816772_rot270.png",
+        "probability": 0.9897760152816772,
+        "label": "bird"
+      },
+      "noise1": {
+        "path": "adversarial_example_1615_0.01_deer_0.999992847442627.png",
+        "probability": 0.999992847442627,
+        "label": "deer"
+      },
+      "noise2": {
+        "path": "adversarial_example_1615_0.025_deer_0.9999954700469971.png",
+        "probability": 0.9999954700469971,
+        "label": "deer"
+      },
+      "noise3": {
+        "path": "adversarial_example_1615_0.05_deer_0.9999960660934448.png",
+        "probability": 0.9999960660934448,
+        "label": "deer"
+      },
+      "noise4": {
+        "path": "adversarial_example_1615_0.075_deer_0.999403715133667.png",
+        "probability": 0.999403715133667,
+        "label": "deer"
+      },
+      "noise5": {
+        "path": "adversarial_example_1615_0.1_deer_0.9978829026222229.png",
+        "probability": 0.9978829026222229,
+        "label": "deer"
+      },
+      "noise6": {
+        "path": "adversarial_example_1615_0.15_frog_0.718589723110199.png",
+        "probability": 0.718589723110199,
+        "label": "frog"
+      }
+    },
+    "groups": [
+      2
+    ]
+  },
+  {
+    "path": "cifar10_1623_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_1728_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_1851_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_1863_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_2056_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2128_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2409_bird_out.png",
+    "probability": 1.0,
+    "label": "bird",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2500_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_2981_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_3056_dog_out.png",
+    "probability": 1.0,
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_3402_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false,
+    "groups": [
+      1
+    ]
+  },
+  {
+    "path": "cifar10_3635_horse_out.png",
+    "probability": 1.0,
+    "label": "horse",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_3798_horse_out.png",
+    "probability": 1.0,
+    "label": "horse",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_3851_dog_out.png",
+    "probability": 0.9999362,
+    "label": "dog",
+    "correct": false,
+    "carnac": false,
+    "groups": [
+      2
+    ]
+  },
+  {
+    "path": "cifar10_4946_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_6243_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_7059_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_7062_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_7482_frog_out.png",
+    "probability": 1.0,
+    "label": "frog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_9840_dog_out.png",
+    "probability": 1.0,
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_10116_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10167_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10210_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10296_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10451_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10592_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10641_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10701_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10834_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_10877_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_11125_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_11510_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_11635_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_11785_deer_in.png",
+    "probability": 1.0,
+    "label": "deer",
+    "correct": true,
+    "carnac": true
+  },
+  {
+    "path": "cifar10_12285_dog_out.png",
+    "probability": 1.0,
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_13715_dog_out.png",
+    "probability": 1.0,
+    "label": "dog",
+    "correct": false,
+    "carnac": false
+  },
+  {
+    "path": "cifar10_14857_cat_out.png",
+    "probability": 1.0,
+    "label": "cat",
+    "correct": false,
+    "carnac": false
+  }
+]
