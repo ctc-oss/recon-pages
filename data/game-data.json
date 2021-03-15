@@ -5,9 +5,7 @@
     "label": "deer",
     "correct": true,
     "carnac": true,
-    "groups": [
-      1
-    ]
+    "groups": [1]
   },
   {
     "path": "cifar10_149_deer_in.png",
@@ -15,9 +13,7 @@
     "label": "deer",
     "correct": true,
     "carnac": true,
-    "groups": [
-      1
-    ]
+    "groups": [1]
   },
   {
     "path": "cifar10_336_deer_in.png",
@@ -25,9 +21,7 @@
     "label": "deer",
     "correct": true,
     "carnac": true,
-    "groups": [
-      1
-    ]
+    "groups": [1]
   },
   {
     "path": "cifar10_345_cat_out.png",
@@ -35,9 +29,7 @@
     "label": "cat",
     "correct": false,
     "carnac": false,
-    "groups": [
-      1
-    ]
+    "groups": [1]
   },
   {
     "path": "cifar10_346_deer_in.png",
@@ -45,9 +37,7 @@
     "label": "deer",
     "correct": true,
     "carnac": true,
-    "groups": [
-      2
-    ]
+    "groups": [2]
   },
   {
     "path": "cifar10_405_bird_out.png",
@@ -104,9 +94,7 @@
     "label": "horse",
     "correct": false,
     "carnac": false,
-    "groups": [
-      2
-    ]
+    "groups": [2]
   },
   {
     "path": "cifar10_1069_deer_out.png",
@@ -186,9 +174,7 @@
         "label": "deer"
       }
     },
-    "groups": [
-      2
-    ]
+    "groups": [2, 3]
   },
   {
     "path": "cifar10_1303_frog_out.png",
@@ -282,9 +268,7 @@
         "label": "frog"
       }
     },
-    "groups": [
-      2
-    ]
+    "groups": [2, 3]
   },
   {
     "path": "cifar10_1623_frog_out.png",
@@ -362,9 +346,7 @@
     "label": "frog",
     "correct": false,
     "carnac": false,
-    "groups": [
-      1
-    ]
+    "groups": [1]
   },
   {
     "path": "cifar10_3635_horse_out.png",
@@ -386,9 +368,7 @@
     "label": "dog",
     "correct": false,
     "carnac": false,
-    "groups": [
-      2
-    ]
+    "groups": [2]
   },
   {
     "path": "cifar10_4946_frog_out.png",
