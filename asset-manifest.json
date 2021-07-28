@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.d9a4d5ab.chunk.css",
-    "main.js": "./static/js/main.863a6425.chunk.js",
-    "main.js.map": "./static/js/main.863a6425.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.9e148d88.js",
-    "runtime-main.js.map": "./static/js/runtime-main.9e148d88.js.map",
-    "static/css/2.d1db0ea1.chunk.css": "./static/css/2.d1db0ea1.chunk.css",
-    "static/js/2.1981c9bd.chunk.js": "./static/js/2.1981c9bd.chunk.js",
-    "static/js/2.1981c9bd.chunk.js.map": "./static/js/2.1981c9bd.chunk.js.map",
-    "static/js/3.b671beab.chunk.js": "./static/js/3.b671beab.chunk.js",
-    "static/js/3.b671beab.chunk.js.map": "./static/js/3.b671beab.chunk.js.map",
+    "main.css": "./static/css/main.e484a77b.chunk.css",
+    "main.js": "./static/js/main.fed0bb72.chunk.js",
+    "main.js.map": "./static/js/main.fed0bb72.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.26f778eb.js",
+    "runtime-main.js.map": "./static/js/runtime-main.26f778eb.js.map",
+    "static/css/2.2d7007fa.chunk.css": "./static/css/2.2d7007fa.chunk.css",
+    "static/js/2.70fe89e4.chunk.js": "./static/js/2.70fe89e4.chunk.js",
+    "static/js/2.70fe89e4.chunk.js.map": "./static/js/2.70fe89e4.chunk.js.map",
+    "static/js/3.1a127b73.chunk.js": "./static/js/3.1a127b73.chunk.js",
+    "static/js/3.1a127b73.chunk.js.map": "./static/js/3.1a127b73.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/2.d1db0ea1.chunk.css.map": "./static/css/2.d1db0ea1.chunk.css.map",
-    "static/css/main.d9a4d5ab.chunk.css.map": "./static/css/main.d9a4d5ab.chunk.css.map",
-    "static/js/2.1981c9bd.chunk.js.LICENSE.txt": "./static/js/2.1981c9bd.chunk.js.LICENSE.txt"
+    "static/css/2.2d7007fa.chunk.css.map": "./static/css/2.2d7007fa.chunk.css.map",
+    "static/css/main.e484a77b.chunk.css.map": "./static/css/main.e484a77b.chunk.css.map",
+    "static/js/2.70fe89e4.chunk.js.LICENSE.txt": "./static/js/2.70fe89e4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/Jost-VariableFont_wght.3410386a.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.9e148d88.js",
-    "static/css/2.d1db0ea1.chunk.css",
-    "static/js/2.1981c9bd.chunk.js",
-    "static/css/main.d9a4d5ab.chunk.css",
-    "static/js/main.863a6425.chunk.js"
+    "static/js/runtime-main.26f778eb.js",
+    "static/css/2.2d7007fa.chunk.css",
+    "static/js/2.70fe89e4.chunk.js",
+    "static/css/main.e484a77b.chunk.css",
+    "static/js/main.fed0bb72.chunk.js"
   ]
 }
